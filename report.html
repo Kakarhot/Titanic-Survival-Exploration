@@ -12989,13 +12989,7 @@ Make sure to keep track of the various features and conditions you tried before 
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Answer</strong>: I've explored features such as <strong>Age</strong>, <strong>Gender</strong>, <strong>Pclass</strong> and <strong>Embarked</strong>, and noticed that females between the age of 40 and 60 with pclass of 3 is not surviving, and anyone with embarked of 'S' with pclass of 3 also has not surviving. So first I use the condition</p>
-<p><code>if passenger['Embarked'] == 'S' and passenger['Pclass'] == 3:</code></p>
-<p>then judging by <strong>Sex</strong></p>
-<p><code>if passenger['Sex'] == 'male'</code></p>
-<p>then use the condition on female</p>
-<p><code>if passenger['Sex'] == 'female' and passenger['Age'] &lt;= 60 and passenger['Age'] &gt;= 40 and passenger['Pclass']==3</code></p>
-<p>Predictions have an accuracy of 82.15%</p>
+<p><strong>Answer</strong>: Predictitons have an accuracy of 82.15%</p>
 
 </div>
 </div>
